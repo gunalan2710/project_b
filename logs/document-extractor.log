@@ -1,0 +1,137 @@
+2025-10-07 10:49:30 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 3612 (C:\Users\Dell\Downloads\Addhar masking061001\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking061001\doczbott)
+2025-10-07 10:49:30 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 10:49:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 10:49:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 10:49:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 10:49:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 10:49:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1700 ms
+2025-10-07 10:49:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 10:49:34 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 4.684 seconds (process running for 5.393)
+2025-10-07 10:50:02 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 10:50:02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 10:50:02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 10:50:02 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 10:50:02 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 10:50:03 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 10:50:05 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 10:50:06 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 10:50:06 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:50:06 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 10:50:06 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:50:07 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 10:56:25 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-07 10:56:25 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-07 10:56:25 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-07 10:56:28 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 11296 (C:\Users\Dell\Downloads\Addhar masking061001\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking061001\doczbott)
+2025-10-07 10:56:28 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 10:56:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 10:56:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 10:56:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 10:56:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 10:56:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1130 ms
+2025-10-07 10:56:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 10:56:31 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 3.261 seconds (process running for 3.971)
+2025-10-07 10:56:56 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 10:56:56 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 10:56:56 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 10:56:56 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 10:56:56 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 10:56:57 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 10:56:59 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 10:57:00 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 10:57:00 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:57:00 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 10:57:00 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:57:00 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 10:57:54 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-07 10:57:54 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-07 10:57:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-07 10:57:57 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 16460 (C:\Users\Dell\Downloads\Addhar masking061001\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking061001\doczbott)
+2025-10-07 10:57:57 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 10:57:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 10:57:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 10:57:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 10:57:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 10:57:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1162 ms
+2025-10-07 10:58:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 10:58:00 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 3.252 seconds (process running for 3.989)
+2025-10-07 10:58:03 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 10:58:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 10:58:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 10:58:03 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 10:58:04 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 10:58:04 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 10:58:07 [http-nio-8080-exec-2] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 10:58:07 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 10:58:08 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:58:08 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 10:58:08 [http-nio-8080-exec-2] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 10:58:08 [http-nio-8080-exec-2] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 11:32:32 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-07 11:32:32 [RMI TCP Connection(39)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-07 11:32:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-07 11:32:36 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 20512 (C:\Users\Dell\Downloads\Addhar masking061001\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking061001\doczbott)
+2025-10-07 11:32:36 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 11:32:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 11:32:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 11:32:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 11:32:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 11:32:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1203 ms
+2025-10-07 11:32:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 11:32:39 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 3.428 seconds (process running for 4.262)
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 11:32:48 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 11:32:51 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 11:32:52 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 11:32:52 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 11:32:52 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 11:32:52 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Applied X masking successfully
+2025-10-07 11:32:52 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 11:54:28 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-07 11:54:28 [RMI TCP Connection(25)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-07 11:54:28 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-07 11:54:31 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 17664 (C:\Users\Dell\Downloads\Addhar masking061001\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking061001\doczbott)
+2025-10-07 11:54:31 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 11:54:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 11:54:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 11:54:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 11:54:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 11:54:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1142 ms
+2025-10-07 11:54:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 11:54:34 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 3.244 seconds (process running for 4.024)
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 11:55:05 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 11:55:08 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 11:55:09 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 11:55:09 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 11:55:09 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 16:33:21 [main] INFO  a.s.doczbot.DoczbottApplication - Starting DoczbottApplication using Java 17.0.12 with PID 53056 (C:\Users\Dell\Downloads\Addhar masking071002\doczbott\target\classes started by Dell in C:\Users\Dell\Downloads\Addhar masking071002\doczbott)
+2025-10-07 16:33:21 [main] INFO  a.s.doczbot.DoczbottApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-07 16:33:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-07 16:33:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-07 16:33:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-07 16:33:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-07 16:33:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1466 ms
+2025-10-07 16:33:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-07 16:33:24 [main] INFO  a.s.doczbot.DoczbottApplication - Started DoczbottApplication in 4.491 seconds (process running for 5.349)
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Received image extraction request for file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg with extraction method: TESSERACT_OCR, ID type: aadhar, masking type: X
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Processing with masking type: X
+2025-10-07 16:48:35 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Low confidence detected, checking all rotations...
+2025-10-07 16:48:38 [http-nio-8080-exec-1] INFO  a.s.d.s.m.ImageOrientationService - Best rotation detected: 90° (confidence: 75.0)
+2025-10-07 16:48:39 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (167, 543)
+2025-10-07 16:48:39 [http-nio-8080-exec-1] INFO  a.s.d.s.m.AadhaarMaskingService - Masking Aadhaar: 472894739406 at position (174, 814)
+2025-10-07 16:48:39 [http-nio-8080-exec-1] INFO  a.s.d.c.AadhaarMaskingController - Successfully processed file: WhatsApp Image 2025-10-04 at 13.07.30 (1).jpeg. Found 2 Aadhaar number(s) with X masking
+2025-10-07 17:20:45 [RMI TCP Connection(51)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-07 17:20:45 [RMI TCP Connection(51)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-07 17:20:45 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
